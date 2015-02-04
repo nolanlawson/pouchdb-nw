@@ -11,7 +11,7 @@ Sample app
 Installation
 -----
 
-There are two ways to use PouchDB in NW.js: as a Node.js module or as a browser script.
+There are two ways to use PouchDB in NW.js: as a browser script or as a Node.js module.
 
 By far the easiest way is to use it as a browser script. NW.js is based on Chromium, so PouchDB will work out of the box, since both IndexedDB and WebSQL are supported by Chromium.
 
