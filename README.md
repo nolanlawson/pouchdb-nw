@@ -1,4 +1,4 @@
-pouchdb-node-webkit
+pouchdb-nw
 ==========
 
 PouchDB works great in NW.js (formerly known as Node-Webkit). Here's how to get started.
