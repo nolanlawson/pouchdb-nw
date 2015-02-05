@@ -25,7 +25,7 @@ Just download [pouchdb.js](http://pouchdb.com/guides/setup-pouchdb.html) and inc
 <script src="path/to/pouchdb.js"></script>
 ```
 
-Now PouchDB is available as a global variable. So you can create an IndexedDB-based PouchDB:
+Now `PouchDB` is available as a global variable. So you can create an IndexedDB-based PouchDB:
 
 ```js
 var db = new PouchDB('mydb');
@@ -37,7 +37,7 @@ or a WebSQL-based PouchDB:
 var db = new PouchDB('mydb', {adapter: 'websql'});
 ```
 
-Use whichever one you prefer. They both work the same, although in my experience WebSQL is slightly faster than IndexedDB in Chrome, for most use cases.
+Use whichever one you prefer. They both work the same, although in my experience WebSQL is slightly faster than IndexedDB in Chromium, for most use cases. (NW is based on Chromium.)
 
 ### PouchDB as a Node.js module
 
